@@ -7,8 +7,8 @@ export default function LinkList() {
     <div>
       {links.map((val, key) => {
         return (
-          <div>
-            <SingleLink val={val} key={key}/>
+          <div key={key}>
+            <SingleLink val={val} />
           </div>
         );
       })}

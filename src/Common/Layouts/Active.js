@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Title from "../Components/Title";
 
 export default function Active() {
-    return (
-        <div>
-            Active
-        </div>
-    )
+  return (
+    <div>
+      <Title val="Messenger"/>
+    </div>
+  );
 }
