@@ -10,7 +10,6 @@ export default function Design() {
   }, 2000);
 
   return (
-    
     <div>
       {loading && <Loading />}
       {!loading && <Common />}

@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import HomePage from "../HomePage/HomePage";
 import Left from "./Layouts/Left";
 import Messenger from "./Layouts/Messenger";
 
@@ -11,7 +12,7 @@ export default function Common() {
           <Left />
         </Grid>
         <Grid item xs={8}>
-          ds
+          <HomePage />
         </Grid>
         <Grid item xs={2}>
           <Messenger />

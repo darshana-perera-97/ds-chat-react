@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import AddPost from "./Layouts/AddPost";
 
 export default function HomePage() {
-    return (
-        <div>
-            HomePage
-        </div>
-    )
+  return (
+    <div>
+      <AddPost />
+    </div>
+  );
 }
